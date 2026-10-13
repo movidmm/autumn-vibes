@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autumn Vibes, o cafenea cozy inspirată de toamnă.">
+    <title>Autumn Vibes | O pauză cu aromă de toamnă</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Antetul și navigarea -->
+    <header class="site-header" id="home">
+        <div class="container header-content">
+            <a class="logo" href="#home" aria-label="Autumn Vibes, acasă">Autumn <span>Vibes</span><span
+                    class="logo-leaf" aria-hidden="true">✦</span></a>
+            <nav aria-label="Navigare principală">
+                <ul class="nav-links">
+                    <li><a href="#home">Acasă</a></li>
+                    <li><a href="#about">Despre noi</a></li>
+                    <li><a href="#menu">Meniu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Secțiunea de introducere -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <p class="eyebrow light">CAFENEAUA TA DE TOAMNĂ</p>
+                <h1 id="hero-title">Aici, toamna<br>are gust de <em>cafea.</em></h1>
+                <p>O ceașcă fierbinte, un colț liniștit și puțin timp doar pentru tine. Bine ai venit la Autumn Vibes.
+                </p>
+                <a class="button button-cream" href="#menu">Descoperă meniul <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+
+        <!-- Povestea cafenelei -->
+        <section class="section about-section" id="about" aria-labelledby="about-title">
+            <div class="container about-layout">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+                        alt="Cafea proaspăt preparată într-o cafenea primitoare" loading="lazy">
+                    <div class="image-note">slow mornings, warm hearts ♡</div>
+                </div>
+                <div class="about-text">
+                    <p class="eyebrow">POVESTEA NOASTRĂ</p>
+                    <h2 id="about-title">Un loc în care<br>timpul încetinește.</h2>
+                    <p>Autumn Vibes s-a născut din dragostea pentru diminețile răcoroase, mirosul de cafea proaspătă și
+                        conversațiile care se lungesc fără grabă.</p>
+                    <p>Am creat un spațiu cald, unde poți veni să citești, să înveți sau să te întâlnești cu prietenii.
+                        Aici, fiecare zi se simte puțin ca o duminică de octombrie.</p>
+                    <a class="text-link" href="#contact">Vino să ne cunoști <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produsele sunt organizate cu Flexbox în CSS -->
+        <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">CEVA BUN PENTRU TINE</p>
+                    <h2 id="menu-title">Micul nostru meniu</h2>
+                    <p>Arome care încălzesc zilele reci, pregătite cu drag.</p>
+                </div>
+                <div class="menu-grid">
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Latte cremos într-un pahar" loading="lazy">
+                        <div class="product-info"><span class="product-type">CAFÉ FAVORITES</span>
+                            <h3>Pumpkin Spice Latte</h3>
+                            <p>Espresso, lapte cremos și note delicate de dovleac și scorțișoară.</p><strong>22
+                                lei</strong>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Cappuccino cu spumă fină de lapte" loading="lazy">
+                        <div class="product-info"><span class="product-type">CAFÉ FAVORITES</span>
+                            <h3>Cappuccino</h3>
+                            <p>Espresso intens și spumă catifelată de lapte, combinația clasică.</p><strong>16
+                                lei</strong>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Cafea latte cu lapte și aromă de caramel" loading="lazy">
+                        <div class="product-info"><span class="product-type">CAFÉ FAVORITES</span>
+                            <h3>Caramel Latte</h3>
+                            <p>Un latte fin, îndulcit cu caramel, perfect pentru după-amiezi leneșe.</p><strong>21
+                                lei</strong>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Băutură caldă cu lapte și condimente" loading="lazy">
+                        <div class="product-info"><span class="product-type">WARM & COZY</span>
+                            <h3>Chai Latte</h3>
+                            <p>Ceai negru cu lapte și un amestec parfumat de condimente.</p><strong>20 lei</strong>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1517578239113-b03992dcdd25?w=800"
+                            alt="Ciocolată caldă într-o cană">
+                        <div class="product-info"><span class="product-type">WARM & COZY</span>
+                            <h3>Hot Chocolate</h3>
+                            <p>Ciocolată caldă, bogată și cremoasă, pentru un răsfăț simplu.</p><strong>19 lei</strong>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Desert de patiserie proaspăt copt" loading="lazy">
+                        <div class="product-info"><span class="product-type">SOMETHING SWEET</span>
+                            <h3>Cinnamon Roll</h3>
+                            <p>Rulou pufos cu scorțișoară și glazură dulce, copt cu grijă.</p><strong>17 lei</strong>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact și formular demonstrativ, fără backend -->
+        <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+            <div class="container contact-layout">
+                <div class="contact-details">
+                    <p class="eyebrow">NE VEDEM LA O CAFEA?</p>
+                    <h2 id="contact-title">Locul tău te<br>așteaptă.</h2>
+                    <p>Ușa e deschisă, cafeaua e proaspătă și atmosfera e mereu primitoare.</p>
+                    <div class="detail">
+                        <h3>Unde ne găsești</h3>
+                        <p>Strada Frunzelor nr. 12, Cluj-Napoca<br><small>Adresă fictivă, folosită pentru
+                                demonstrație.</small></p>
+                    </div>
+                    <div class="detail">
+                        <h3>Program</h3>
+                        <p>Luni – Vineri: 08:00 – 20:00<br>Sâmbătă – Duminică: 09:00 – 21:00</p>
+                    </div>
+                    <div class="detail">
+                        <h3>Email</h3>
+                        <p>hello@autumnvibes.example</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrap">
+                    <h3>Lasă-ne un mesaj</h3>
+                    <p>Ne-ar plăcea să auzim de la tine!</p>
+                    <form action="#contact" method="get">
+                        <label for="name">Nume</label>
+                        <input type="text" id="name" name="name" placeholder="Numele tău" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplu.ro" required>
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul aici..."
+                            required></textarea>
+                        <button class="button button-dark" type="submit">Trimite mesajul <span
+                                aria-hidden="true">↗</span></button>
+                    </form>
+                    <p class="form-note">Formular demonstrativ: nu trimite mesaje către cafenea.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div><a class="logo footer-logo" href="#home">Autumn <span>Vibes</span> ✦</a>
+                <p>Good coffee. Slow days. Warm hearts.</p>
+            </div>
+            <nav aria-label="Navigare footer"><a href="#home">Acasă</a><a href="#about">Despre</a><a
+                    href="#menu">Meniu</a><a href="#contact">Contact</a></nav>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 Autumn Vibes. Proiect fictiv realizat pentru laborator.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
